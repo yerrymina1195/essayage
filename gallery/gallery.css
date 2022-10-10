@@ -1,0 +1,197 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 120px;
+  /* padding: 20px 0; */
+  background-color: #2e3341;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+}
+.menu {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.menu ul {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+.menu li {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+  font-weight: lighter;
+  list-style: none;
+  font-style: normal;
+  transition: all 500ms;
+}
+.menu a {
+  text-decoration: none;
+  padding: 30px 0;
+  color: white;
+}
+.menu li:hover {
+  background-color: gray;
+  cursor: pointer;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background-color: #2e3341;
+}
+.c {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff1418;
+  color: white;
+}
+.c h1 {
+  font-style: normal;
+  font-weight: 600;
+}
+.c2 {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+}
+.map {
+  display: flex;
+  width: 45%;
+  height: 500px;
+  background-image: url(img-gallery/carte.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.inf {
+  display: flex;
+  width: 45%;
+  height: 100%;
+  flex-direction: column;
+  color: white;
+  font-size: normal;
+  font-weight: lighter;
+}
+.company {
+  padding-top: 30px;
+  line-height: 25px;
+}
+.messagerie,
+.wotel {
+  padding-top: 45px;
+  line-height: 25px;
+}
+.c3 {
+  display: flex;
+  width: 100%;
+  height: 90px;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(219, 219, 219);
+  border-top: 2px solid white;
+  padding: 0 40px;
+}
+.c3 p {
+  line-height: 25px;
+}
+
+.inf p {
+  color: rgb(219, 219, 219);
+}
+.sall {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(3, 1fr);
+  padding-top: 2%;
+  margin: 2% 0;
+  margin-left: 0px;
+
+}
+.mi {
+  width: 92%;
+  height: 30vh;
+}
+.momo {
+  width: 50%;
+  height: 30vh;
+}
+.hi {
+  width: 92%;
+  height: 30vh;
+}
+.ma {
+  width: 99.5%;
+  height: 30vh;
+}
+.fa {
+  width: 92%;
+  height: 30vh;
+  /* margin-top: 2%; */
+}
+.good {
+  width: 92%;
+  height: 30vh;
+  /* margin-top: 2%; */
+}
+.momo {
+  width: 99.5%;
+  height: 30vh;
+  /* margin-top: 2%; */
+}
+.dou{
+    width: 100%;
+    /* margin: auto; */
+}
+ 
+
+
+    
+/* Mama Style */
+.mama{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;    
+ }
+ .image{
+    width: 30%;
+    height: auto ;
+ }
+ img{
+    width: 100%;
+    height: 90%;    
+ }
+ /* Mama Style */
+ 
