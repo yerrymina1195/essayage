@@ -16,7 +16,16 @@ header{
     width: 100%;
     height: 120px;
     /* padding: 20px 0; */
- background-color:#2e3341 ;
+ background-color:rgb(78, 78, 95);
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+ background-color:rgb(78, 78, 95)  ;
 }
 .logo{
     display: flex;
@@ -24,6 +33,9 @@ header{
     align-items: center;
     width: 20%;
 
+}
+.logo img{
+    width: 100%;
 }
 .menu{
     width: 50%;
@@ -145,13 +157,12 @@ footer{
 
 #founaghe{
     display: flex;
-    justify-content: center;
     padding: 50px 0px 75px 0px;
-    
+    margin-left: 10%;
 }
 
 #founa1{
-    
+    width: 600px;
 }
 #founa1 h2{
     font-weight: bolder;
@@ -165,26 +176,29 @@ input::placeholder{
     padding: 20px 0px 20px 0px;
     background-color: rgb(192, 200, 202);
     border-style: none;
+    width: 49%;
 }
 .name{
     padding: 20px 0px 20px 0px;
     background-color: rgb(192, 200, 202);
     border-style: none;
+    width: 48%;
+    margin-left: 6px;
 }
 .subject{
     padding: 20px 0px 20px 0px;
     background-color: rgb(192, 200, 202);
-    width: 100%;
+    width: 99%;
     border-style: none;
 }
 .message{
     padding: 50px 0px 50px 0px;
     background-color: rgb(192, 200, 202);
-    width: 100%;
+    width: 99%;
     border-style: none;
 }
 .btn{
-    width: 100%;
+    width: 99%;
     padding: 10px;
     border-style: none;
     background-color: #ff1418;
@@ -205,5 +219,168 @@ input::placeholder{
     font-size:medium;
 }
 span{
-    opacity: 0.5;
+    color: rgb(177, 175, 175);
+}
+
+
+
+  
+/* Mama Style */
+.contact{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(78, 78, 95);
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid grey;
+}
+.text{
+    width: 85%;  
+}
+#h1contact{
+    font-size: 45px;
+    color: white;
+    margin-bottom: 25px;
+}
+#pcontact{
+    font-size: 25px;
+    color: rgb(177, 175, 175);
+    line-height: 40px;
+}
+.mama{
+    display: flex;
+    width: 85%;
+    justify-content: space-around; 
+ }
+.para{
+    width: 32%;
+    height: 150px ;
+    border: 1px solid black;
+    font-size: 20px;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ /* Mama Style */
+ 
+ @media all and (max-width: 1024px)
+{
+    header{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 200px;
+        /* padding: 20px 0; */
+     background-color:rgb(78, 78, 95);
+    }
+    nav{
+        display: flex;
+        justify-content: space-around;
+        position: fixed;
+        align-items: center;
+        width: 100%;
+        height: 30%;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20%;
+    
+    }
+    .logo img{
+        width: 100%;
+    }
+    .menu{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* align-items: center; */
+        color: white;
+     
+    
+     
+    }
+    .menu ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* width: 100%; */
+        height: 100%;
+    }
+    .menu li{
+        display: flex;
+        width: 50%;
+        height: 20px;
+        justify-content: center;
+        align-items: center;
+        font-size: x-large;
+        font-weight: lighter;
+        list-style: none;
+        font-style: normal;
+      transition: all 500ms;
+      padding-bottom: 18px;
+      padding-top: 18px;
+        
+    }
+    .menu a{
+        text-decoration: none;
+        padding:  5px ;
+        color: white;
+    
+    }
+    .menu li a :hover{
+        background-color: gray;
+        cursor: pointer;
+        
+    }  
+    .mama{
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+        justify-content: space-around;
+        align-items: center; 
+     }
+    .para{
+        width: 90%;
+        height: 150px ;
+        border: 1px solid black;
+        font-size: 20px;
+        text-align: justify;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     } 
+     .mail{
+        padding: 20px 0px 20px 0px;
+        background-color: rgb(192, 200, 202);
+        border-style: none;
+        width: 49%;
+    }
+    .name{
+        padding: 20px 0px 20px 0px;
+        background-color: rgb(192, 200, 202);
+        border-style: none;
+        width: 48%;
+        margin-left: 6px;
+    }
+    #founaghe{
+        display: flex;
+        flex-direction: column;
+        padding: 50px 0px 75px 0px;
+        
+    }
+
+}
+@media all and (max-width: 655px){
+    #founa1{
+        width: 100%;
+    }
 }
